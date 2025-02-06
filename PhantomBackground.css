@@ -1,0 +1,46 @@
+/**
+ * @name Phantom Theme
+ * @author PhantomJSS
+ * @version 1.0
+ * @description A custom Noragami theme for Discord, created with the DiscordStyles library
+ * @source https://github.com/DiscordStyles/SoftX
+ * @author https://github.com/PhantomJSS
+*/
+
+@import url('https://discordstyles.github.io/SoftX/SoftX.css');
+@import url('https://discordstyles.github.io/SoftX/RadialGlow.css');
+@import url('https://discordstyles.github.io/SoftX/VerticalUserArea.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://images5.alphacoders.com/662/662285.jpg');
+  --font: Space Grotesk;
+  --accent: 0, 231, 169;
+  --rs-online-color: #83f87f;
+  --rs-idle-color: #fdfb6e;
+  --rs-dnd-color: #8a0000;
+  --rs-offline-color: #8b65a1;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-streaming-color: #9a5fff; 
+  --rs-phone-visible: block; 
+  --rs-invisible-color: #9d8ebe; 
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 3px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 3px;
+  --rs-avatar-shape: 50%; 
+  --channels-width: 250px;
+  --guilds-width: 80px;
+  --members-width: 250px;
+  --server-size: 50px;
+  --chat-avatar-size: 45px;
+  --background-blur: 5px;
+  --opacity: 0.5;
+  --glow-intensity: 1;
+}
+
+
